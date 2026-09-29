@@ -1,0 +1,87 @@
+{
+  "blend": {
+    "func": "add",
+    "srcrgb": "srcalpha",
+    "dstrgb": "1-srcalpha"
+  },
+  "vertex": "effects-nice:storm",
+  "fragment": "effects-nice:storm",
+  "attributes": [
+    "Position"
+  ],
+  "samplers": [],
+  "uniforms": [
+    {
+      "name": "ViewRotation",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "ClipProjection",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Time",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Progress",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Origin",
+      "type": "float",
+      "count": 3,
+      "values": [
+        0,
+        1,
+        0
+      ]
+    }
+  ]
+}

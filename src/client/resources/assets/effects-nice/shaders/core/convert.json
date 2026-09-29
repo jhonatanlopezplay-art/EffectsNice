@@ -1,0 +1,36 @@
+{
+  "vertex": "effects-nice:convert",
+  "fragment": "effects-nice:convert",
+  "attributes": [
+    "Position",
+    "UV0"
+  ],
+  "samplers": [
+    {
+      "name": "Sampler0"
+    },
+    {
+      "name": "Sampler1"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "Tint",
+      "type": "float",
+      "count": 3,
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Amount",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    }
+  ]
+}

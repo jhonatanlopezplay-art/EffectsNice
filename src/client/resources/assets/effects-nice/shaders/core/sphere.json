@@ -1,0 +1,450 @@
+{
+  "blend": {
+    "func": "add",
+    "srcrgb": "srcalpha",
+    "dstrgb": "1-srcalpha"
+  },
+  "vertex": "effects-nice:sphere",
+  "fragment": "effects-nice:sphere",
+  "attributes": [
+    "Position",
+    "UV0"
+  ],
+  "samplers": [],
+  "uniforms": [
+    {
+      "name": "ViewRotation",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "ClipProjection",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Offset",
+      "type": "float",
+      "count": 3,
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Eye",
+      "type": "float",
+      "count": 3,
+      "values": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Opacity",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Time",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Hole0",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole1",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole2",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole3",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole4",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole5",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole6",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole7",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole8",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole9",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole10",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole11",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole12",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole13",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole14",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole15",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole16",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole17",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole18",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole19",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole20",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole21",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole22",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole23",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole24",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole25",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole26",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole27",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole28",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole29",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole30",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "name": "Hole31",
+      "type": "float",
+      "count": 4,
+      "values": [
+        0,
+        0,
+        0,
+        -1
+      ]
+    }
+  ]
+}

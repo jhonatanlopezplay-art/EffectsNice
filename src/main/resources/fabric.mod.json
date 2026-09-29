@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "effects-nice",
+  "version": "${version}",
+  "name": "Effects Nice",
+  "description": "Cielos cinematográficos, grietas animadas, conversión de colores y esferas protectoras hexagonales sincronizadas con el servidor.",
+  "authors": [
+    "xp.dev"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/effects-nice/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xp.dev.EffectsNice"
+    ],
+    "client": [
+      "xp.dev.client.EffectsNiceClient"
+    ],
+    "fabric-datagen": [
+      "xp.dev.client.EffectsNiceDataGenerator"
+    ]
+  },
+  "mixins": [
+    "effects-nice.mixins.json",
+    {
+      "config": "effects-nice.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "blend": {
+    "func": "add",
+    "srcrgb": "srcalpha",
+    "dstrgb": "1-srcalpha"
+  },
+  "vertex": "effects-nice:rift",
+  "fragment": "effects-nice:rift",
+  "attributes": [
+    "Position",
+    "UV0"
+  ],
+  "samplers": [
+    {
+      "name": "Sampler0"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "ViewRotation",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "ClipProjection",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Time",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Fracture",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "Opening",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0
+      ]
+    },
+    {
+      "name": "ImageAspect",
+      "type": "float",
+      "count": 1,
+      "values": [
+        1
+      ]
+    },
+    {
+      "name": "RiftAspect",
+      "type": "float",
+      "count": 1,
+      "values": [
+        3
+      ]
+    }
+  ]
+}

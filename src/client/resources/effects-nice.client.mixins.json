@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "xp.dev.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "SkyMixin",
+    "ConvertWorldMixin",
+    "ConvertItemMixin",
+    "ConvertFramebufferMixin",
+    "EntityDispatcherAccess"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
